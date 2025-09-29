@@ -8,8 +8,8 @@ POST http://localhost:5192/games
 Content-Type: application/json
 
 {
-    "name":"asdada",
-    "genre": "Kids and Family",
+    "name":"Street Fighter II",
+    "genreId": 1,
     "price": 19.99,
     "releaseDate": "2011-11-18"
 }
