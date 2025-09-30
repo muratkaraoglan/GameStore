@@ -8,21 +8,23 @@ POST http://localhost:5192/games
 Content-Type: application/json
 
 {
-    "name":"Final Fantasy XIV",
-    "genreId": 2,
+    "name":"Fifa",
+    "genreId": 3,
     "price": 59.99,
-    "releaseDate": "2010-09-30"
+    "releaseDate": "2010-09-30",
+    "purchaseCount": 1
 }
 
 ###
-PUT http://localhost:5192/games/3
+PUT http://localhost:5192/games/1
 Content-Type: application/json
 
 {
     "name": "Street Fighter II Turbo",
     "genreId": 1,
-    "price": 19.99,
-    "releaseDate": "1991-02-15"
+    "price": 29.99,
+    "releaseDate": "1991-02-15",
+    "purchaseCount": 1
 }
 
 ###
